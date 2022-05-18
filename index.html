@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecione seu personagem</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/reponsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">Character Select</h1>
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/images/bob.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Bob Esponja</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="bob" data-name="Bob Esponja">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/bob.jpg" alt="Personagem Bob Esponja">
+                </li>
+
+                <li class="personagem" id="pat" data-name="Patrick">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/pat.jpg" alt="Personagem Patrick">
+                </li>
+
+                <li class="personagem" id="lula" data-name="Lula Molusco">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/lula.jpg" alt="Personagem Lula Molusco">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="siri" data-name="Seu Siriquejo">
+                    <span class="tag">2P</span>
+                    <img src="./src/images/siri.jpg" alt="Personagem Seu Siriquejo">
+                </li>
+
+                <li class="personagem" id="plank" data-name="Plankton">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/plank.jpg" alt="Personagem Plankton">
+                </li>
+
+                <li class="personagem" id="san" data-name="Sandy">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/san.jpg" alt="Sandy">
+                </li>
+
+                <li class="personagem" id="gar" data-name="Gary">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/gar.jpg" alt="Personagem Gary">
+                </li>
+
+                <li class="personagem" id="mer" data-name="Homem Sereia">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/mer.jpg" alt="Personagem Homem Sereia">
+                </li>
+
+                <li class="personagem" id="bar" data-name="Mexilhãozinho">
+                    <span class="tag">1P</span>
+                    <img src="./src/images/bar.jpg" alt="Personagem Mexilhãozinho">
+                </li>
+            </ul>
+            
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/images/krabs2.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Seu Siriquejo</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
